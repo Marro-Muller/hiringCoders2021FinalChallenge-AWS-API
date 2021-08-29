@@ -16,7 +16,9 @@ Neste momento, existem dois métodos de interagir com o banco de leads, por meio
   
 ## POST  
 <details>
-### Descrição
+	
+### Descrição  
+	
 Esta requisição cria customers como lead ou cliente. Caso tente-se criar um customer como client e este já existir como lead, haverá uma alteração de tipo. A procura do customer no banco de dados é feito baseado na informação chave inserido, portanto este campo é obrigatório e único no banco.
 
 ### Atributos
@@ -86,7 +88,9 @@ Esta requisição cria customers como lead ou cliente. Caso tente-se criar um cu
   
 ## GET  
 <details>
-### Descrição
+	
+### Descrição  
+	
 Esta requisição altera permite você buscar um customer ou todos. A procura por um customer no banco de dados é feito baseado na informação chave inserida, portanto este campo é obrigatório e único no banco. Para buscar todos os customer, coloque o caracter * no lugar da informação chave.
 
 ### Passagem
@@ -170,7 +174,9 @@ Há a possibilidade de interagir com a API para com a URL sem a necessidade de u
   
 ## PUT  
 <details>
-### Descrição
+	
+### Descrição  
+	
 Esta requisição altera o nome ou telefone do customer. A procura do customer no banco de dados é feito baseado na informação chave inserida, portanto este campo é obrigatório e único no banco. Para o put ser efetivo, deve-se adicionar pelo menos um dos campos name, email ou phoneNumber sendo estes não a informação chave.  
 **Importante: A informação chave não pode ser alterada.  
 Importante: Caso queira mudar de tipo de customer de *lead* para *client*, utilizar a requisição POST**
@@ -230,7 +236,9 @@ Importante: Caso queira mudar de tipo de customer de *lead* para *client*, utili
   
 ## DELETE  
 <details>
-### Descrição
+	
+### Descrição  
+	
 Esta requisição permite deletar um customer do banco de dados permanentemente. A procura por um customer no banco de dados é feito baseado na informação chave, portanto este campo é obrigatório e único no banco.
 
 ### Passagem
