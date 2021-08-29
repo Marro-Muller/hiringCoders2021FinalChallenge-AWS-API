@@ -13,8 +13,8 @@ Neste momento, existem dois métodos de interagir com o banco de leads, por meio
 
 - /byphone - interage com o telefone como informação chave
 - /byemail - interage com o email como informação chave
-
-## POST
+  
+## POST  
 <details>
 ### Descrição
 Esta requisição cria customers como lead ou cliente. Caso tente-se criar um customer como client e este já existir como lead, haverá uma alteração de tipo. A procura do customer no banco de dados é feito baseado na informação chave inserido, portanto este campo é obrigatório e único no banco.
@@ -83,7 +83,8 @@ Esta requisição cria customers como lead ou cliente. Caso tente-se criar um cu
        "body": "Error during database operation!"
     }
 </details>
-## GET
+  
+## GET  
 <details>
 ### Descrição
 Esta requisição altera permite você buscar um customer ou todos. A procura por um customer no banco de dados é feito baseado na informação chave inserida, portanto este campo é obrigatório e único no banco. Para buscar todos os customer, coloque o caracter * no lugar da informação chave.
@@ -166,7 +167,8 @@ Há a possibilidade de interagir com a API para com a URL sem a necessidade de u
        "body": "No customer found!"
     }
 </details>
-## PUT
+  
+## PUT  
 <details>
 ### Descrição
 Esta requisição altera o nome ou telefone do customer. A procura do customer no banco de dados é feito baseado na informação chave inserida, portanto este campo é obrigatório e único no banco. Para o put ser efetivo, deve-se adicionar pelo menos um dos campos name, email ou phoneNumber sendo estes não a informação chave.  
@@ -225,7 +227,8 @@ Importante: Caso queira mudar de tipo de customer de *lead* para *client*, utili
        "body": "Error during database operation!"
     }
 </details>
-## DELETE
+  
+## DELETE  
 <details>
 ### Descrição
 Esta requisição permite deletar um customer do banco de dados permanentemente. A procura por um customer no banco de dados é feito baseado na informação chave, portanto este campo é obrigatório e único no banco.
