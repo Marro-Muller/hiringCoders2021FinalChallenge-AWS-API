@@ -1,10 +1,43 @@
 # Lead API Hiring Coders 2021 - grupo 25
 
+## 👨🏻‍💻 Sobre o desafio
+
+- <p style="color: red;">Desenvolver um projeto com o uso de API, sendo que os grupos serão divididos em 3 apresentações (em datas diferentes para bancas diferentes)!
+- O projeto deverá ser o mesmo para os 3 grupos, o que muda é a temática da API que eles vão puxar, que deve estar relacionada com o mercado de cada patrocinador!! Sendo eles:
+  - [AWS](https://aws.amazon.com/pt/)</br>
+  - [ACCT](https://acct.global)</br>
+  - [Corebiz](https://www.corebiz.ag/pt/)
+</p>
+
+### 💻 Desenvolvedores
+- [André Moraes](https://github.com/andreLTMoraes)
+- [Anna Laura](https://github.com/alauraivani)
+- [Cristiano Souza Santana](https://github.com/CristianoSantan)
+- [Fabiano Pereira](https://github.com/ifabianoi)
+- [Maria (Marrô) Rosa Müller ](https://github.com/Marro-Muller)
+- [Otávio Cleyderman Ferraz Faria](https://github.com/OtavioCleyderman)
+- [Pedro Laranjeira](https://github.com/pedroasso)
+- [Reginaldo Oliveira](https://github.com/Reginaldo007oliveira)
+- [Victor Martins](https://github.com/VictorFerreiraMartins)
+- [Victor Hugo Gadioli](https://github.com/victorhgadioli)
+
 ## Introdução
 
 Este documento irá te ajudar a navegar na API criada para o desafio final do Hiring Coders 2021. Foi desenvolvida pelo grupo 25.
 
 Neste repositório você também irá encontrar as funções lambdas utilizadas para tratar as entradas em nosso banco de dados AWS DynamoDB.
+
+## 🚀 Tecnologias
+
+Tecnologias que utilizamos para desenvolver esta API Rest:
+
+- [AWS DynamoDB](https://aws.amazon.com/pt/dynamodb/)
+- [AWS API Gateway](https://aws.amazon.com/pt/api-gateway/)
+- [AWS Lambda](https://aws.amazon.com/pt/lambda/)
+
+## Estrutura da API 
+
+<img alt="diagram" width="100%" src="diagram.jpg"></img>
 
 ## Selecionando a informação chave
 Ao decorrer do projeto, tivemos que decidir qual informação do lead seria utilizada como chave (única no banco) para requisições no banco de dados. Inicialmente foi selecionado o email como informação chave. Com o projeto quase finalizado, alteramos a informação chave para telefone para facilitar a interação com as APIs da VTEX.
