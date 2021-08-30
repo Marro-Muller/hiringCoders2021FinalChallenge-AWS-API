@@ -1,4 +1,6 @@
-# Lead API Hiring Coders 2021 - grupo 25
+<h3 align="center">
+  Lead API <br> Desafio Final <br>  Grupo 25
+</h3>
 
 ## 👨🏻‍💻 Sobre o desafio
 
