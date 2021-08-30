@@ -9,6 +9,9 @@
   - [Corebiz](https://www.corebiz.ag/pt/)
 </p>
 
+### Repositório do projeto
+https://github.com/victorhgadioli/hiringcoders2021-finalChallenge-main
+
 ### 💻 Desenvolvedores
 - [André Moraes](https://github.com/andreLTMoraes)
 - [Anna Laura](https://github.com/alauraivani)
