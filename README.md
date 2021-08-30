@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Lead API <br> Desafio Final <br>  Grupo 25
+  Lead API AWS <br> Desafio Final <br>  Grupo 25
 </h3>
 
 ## 👨🏻‍💻 Sobre o desafio
